@@ -69,16 +69,16 @@ This allows **remote configuration of the temperature limit**.
 # 🖼️ Screenshots
 
 ### Android Dashboard
-![Dashboard](docs/screenshots/app-dashboard.jpg)
+![Dashboard](docs/app-dashboard.jpg)
 
 ### Live Temperature Chart
-![History](docs/screenshots/app-history.jpg)
+![History](docs/app-history.jpg)
 
 ### Threshold Settings
-![Settings](docs/screenshots/app-settings.jpg)
+![Settings](docs/app-settings.jpg)
 
 ### Proteus Simulation
-![Proteus](docs/screenshots/proteus-simulation.png)
+![Proteus](docs/proteus-simulation.png)
 
 ---
 
@@ -106,6 +106,27 @@ smart-temperature-monitor
 ```
 
 ---
+
+```markdown
+## System Architecture Diagram
+
+```mermaid
+graph LR
+
+A[Temperature Sensor<br>Proteus] --> B[AVR Microcontroller<br>CodeVision Firmware]
+
+B -->|Serial TX/RX| C[Virtual COM Ports<br>VPSE]
+
+C --> D[Python Bridge Script]
+
+D --> E[Android Application<br>Kotlin + Jetpack Compose]
+
+E -->|Set Temperature Threshold| D
+
+D -->|Serial Command| B
+```
+
+
 
 # ⚙️ How It Works
 
