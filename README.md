@@ -69,16 +69,16 @@ This allows **remote configuration of the temperature limit**.
 # 🖼️ Screenshots
 
 ### Android Dashboard
-![Dashboard](docs/app-dashboard.jpg)
+<img src="docs/app-dashboard.jpg" width="400">
 
 ### Live Temperature Chart
-![History](docs/app-history.jpg)
+<img src="docs/app-history.jpg" width="400">
 
 ### Threshold Settings
-![Settings](docs/app-settings.jpg)
+<img src="docs/app-settings.jpg" width="400">
 
 ### Proteus Simulation
-![Proteus](docs/proteus-simulation.png)
+<img src="docs/proteus-simulation.png" width="600">
 
 ---
 
