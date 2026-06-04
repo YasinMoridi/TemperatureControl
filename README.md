@@ -107,7 +107,6 @@ smart-temperature-monitor
 
 ---
 
-```markdown
 ## System Architecture Diagram
 
 ```mermaid
@@ -126,7 +125,7 @@ E -->|Set Temperature Threshold| D
 D -->|Serial Command| B
 ```
 
-
+---
 
 # ⚙️ How It Works
 
