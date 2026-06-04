@@ -85,7 +85,7 @@ This allows **remote configuration of the temperature limit**.
 # 📂 Project Structure
 
 ```
-smart-temperature-monitor
+TemperatureControl
 │
 ├── android-app
 │   └── Android application (Kotlin + Jetpack Compose)
@@ -202,4 +202,4 @@ Released under the **MIT License**.
 
 ## 📄 لایسنس
 
-این پروژه تحت لایسنس **MIT** منتشر شده است..
+این پروژه تحت لایسنس **MIT** منتشر شده است.
