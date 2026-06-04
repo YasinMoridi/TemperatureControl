@@ -31,7 +31,7 @@ class BluetoothManager(private val context: Context) {
     private var writer: PrintWriter? = null
     
     // Server configuration: Use 10.0.2.2 for Android Emulator to access host machine
-    private val HOST = "10.0.2.2" // Emulator IP: "10.0.2.2", Physical Phone IP example: "10.27.117.183"
+    private val HOST = "10.27.117.183" // Emulator IP: "10.0.2.2", Physical Phone IP example: "10.27.117.183"
     private val PORT = 5000
 
     private val scope = CoroutineScope(Dispatchers.IO + SupervisorJob())
