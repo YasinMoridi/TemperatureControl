@@ -80,6 +80,11 @@ This allows **remote configuration of the temperature limit**.
 ### Proteus Simulation
 <img src="docs/proteus-simulation.png" width="600">
 
+## Application Demo
+<p align="center">
+  <img src="./docs/App.gif" width="600" alt="Application Demo GIF">
+</p>
+
 ---
 
 # 📂 Project Structure
