@@ -49,7 +49,7 @@ void uart_init(void) {
 }
 
 interrupt [USART_RXC] void usart_rx_isr(void) {
-    char c = UDR;
+    char c = UDR; //data register in UART
     if (rx_ready) return;
     
     if (c == '\n' || c == '\r') {
